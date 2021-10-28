@@ -22,8 +22,8 @@ public class InclusaoCozinhaMain {
         Cozinha cozinha2 = new Cozinha();
         cozinha2.setNome("Japonesa");
 
-        cadastroCozinha.adicionar(cozinha1);
-        cadastroCozinha.adicionar(cozinha2);
+        cadastroCozinha.salvar(cozinha1);
+        cadastroCozinha.salvar(cozinha2);
 
         System.out.printf("%d - %s\n", cozinha1.getId(), cozinha1.getNome());
         System.out.printf("%d - %s\n", cozinha2.getId(), cozinha2.getNome());

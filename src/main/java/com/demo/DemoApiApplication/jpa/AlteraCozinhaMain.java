@@ -6,8 +6,6 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import java.util.List;
-
 public class AlteraCozinhaMain {
 
     public static void main(String[] args) {
@@ -22,6 +20,6 @@ public class AlteraCozinhaMain {
         cozinha.setId(1L);
         cozinha.setNome("Mexicana");
 
-        cadastroCozinha.adicionar(cozinha);
+        cadastroCozinha.salvar(cozinha);
     }
 }
